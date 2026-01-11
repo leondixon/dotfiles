@@ -5,4 +5,6 @@ Link keyboard
 sudo ln -s ./xkb/symbols/custom /usr/share/X11/xkb/symbols/custom
 ```
 ```
-# dotfiles
+# SDDM
+install script
+https://github.com/uiriansan/SilentSDDM
