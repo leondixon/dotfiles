@@ -1,0 +1,55 @@
+/* One Dark Darker - Wofi Configuration */
+
+window {
+    margin: 0px;
+    border: 2px solid #3e4451; /* Using Color8 for a subtle border */
+    background-color: #1f2329; /* Darker Background */
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    font-size: 14px;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #aab2bf; /* Foreground */
+    background-color: #282c34; /* Slightly lighter than window for depth */
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #aab2bf;
+}
+
+/* Selected Item Styling */
+#entry:selected {
+    background-color: #61afef; /* One Dark Blue Accent */
+    border-radius: 4px;
+}
+
+#text:selected {
+    color: #1f2329; /* Background colour for contrast on selection */
+    font-weight: bold;
+}
+
+/* Unselected Hover State */
+#entry:hover {
+    background-color: #3e4451;
+}
